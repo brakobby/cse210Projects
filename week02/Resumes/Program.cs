@@ -11,5 +11,15 @@ class Program
         newJob._endYear = 2027; 
 
         newJob.Display(); 
+
+        Job newJob2 = new Job();
+        newJob2._company = "Apple";
+        newJob2._jobTitle = "AI Specialist";
+        newJob2._jobYear = 2025;
+        newJob2._endYear = 2026; 
+        newJob2.Display();
+
+
+        
     }
 }
