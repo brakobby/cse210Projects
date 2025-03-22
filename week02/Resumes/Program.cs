@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Resumes Project.");
+        Job newJob = new Job();
+        newJob._company = "Vartsy Systems";
+        newJob._jobTitle = "Data Scientist";
+        newJob._jobYear = 2025;
+        newJob._endYear = 2027; 
+
+        newJob.Display(); 
     }
 }

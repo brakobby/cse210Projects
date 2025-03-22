@@ -16,15 +16,4 @@ public class Job
         Console.WriteLine($"{_jobYear}");
         Console.WriteLine($"{_endYear}");
     }
-
-    static void Main(string[] args)
-    {
-        Job newJob = new Job();
-        newJob._company = "Vartsy Systems";
-        newJob._jobTitle = "Data Scientist";
-        newJob._jobYear = 2025;
-        newJob._endYear = 2027; // Fixed the incorrect assignment
-
-        newJob.Display(); // Added to print job details
-    }
 }
