@@ -19,6 +19,15 @@ class Program
         newJob2._endYear = 2026; 
         newJob2.Display();
 
+        Resume myResume = new Resume();
+        myResume._clientName = "Samuel Johnson";
+        myResume._jobs.Add(newJob);
+        myResume._jobs.Add(newJob2);
+
+        myResume.Display();
+
+    
+
 
         
     }
